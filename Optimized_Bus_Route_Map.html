@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5674f77fd9267c9234d333315d431848 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5674f77fd9267c9234d333315d431848" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5674f77fd9267c9234d333315d431848 = L.map(
+                "map_5674f77fd9267c9234d333315d431848",
+                {
+                    center: [41.658139, -83.615205],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d628689b6f7c404a3ef4aec7bc2566f4 = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Esri",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d628689b6f7c404a3ef4aec7bc2566f4.addTo(map_5674f77fd9267c9234d333315d431848);
+        
+    
+            var marker_a4b7b73db1bc6a036d49ef6d312c029e = L.marker(
+                [41.694408, -83.640538],
+                {
+}
+            ).addTo(map_5674f77fd9267c9234d333315d431848);
+        
+    
+        var popup_23aee3b4523ca0ed1b4e20939767233a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77acb9bdf065b5a0cfe3d937cb347537 = $(`<div id="html_77acb9bdf065b5a0cfe3d937cb347537" style="width: 100.0%; height: 100.0%;">Franklin Park Mall</div>`)[0];
+                popup_23aee3b4523ca0ed1b4e20939767233a.setContent(html_77acb9bdf065b5a0cfe3d937cb347537);
+            
+        
+
+        marker_a4b7b73db1bc6a036d49ef6d312c029e.bindPopup(popup_23aee3b4523ca0ed1b4e20939767233a)
+        ;
+
+        
+    
+    
+            var marker_e19e980989da1b8e34877b724d74e3f8 = L.marker(
+                [41.658139, -83.615205],
+                {
+}
+            ).addTo(map_5674f77fd9267c9234d333315d431848);
+        
+    
+        var popup_a34e8886683849cf4de5e449eff14a3e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cfcd6bde1395ce4fdbd34ae7b1f925a = $(`<div id="html_1cfcd6bde1395ce4fdbd34ae7b1f925a" style="width: 100.0%; height: 100.0%;">University of Toledo</div>`)[0];
+                popup_a34e8886683849cf4de5e449eff14a3e.setContent(html_1cfcd6bde1395ce4fdbd34ae7b1f925a);
+            
+        
+
+        marker_e19e980989da1b8e34877b724d74e3f8.bindPopup(popup_a34e8886683849cf4de5e449eff14a3e)
+        ;
+
+        
+    
+    
+            var marker_acddb53a69edd1ce76ef67c1befda7aa = L.marker(
+                [41.617334, -83.616837],
+                {
+}
+            ).addTo(map_5674f77fd9267c9234d333315d431848);
+        
+    
+        var popup_0a88745d17b715cc0dc037449abad061 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d8d1066811ff8838c6212646094c078 = $(`<div id="html_0d8d1066811ff8838c6212646094c078" style="width: 100.0%; height: 100.0%;">UTMC</div>`)[0];
+                popup_0a88745d17b715cc0dc037449abad061.setContent(html_0d8d1066811ff8838c6212646094c078);
+            
+        
+
+        marker_acddb53a69edd1ce76ef67c1befda7aa.bindPopup(popup_0a88745d17b715cc0dc037449abad061)
+        ;
+
+        
+    
+    
+            var marker_4ea2265cfa613c041c252030d2d81ac2 = L.marker(
+                [41.674386, -83.595582],
+                {
+}
+            ).addTo(map_5674f77fd9267c9234d333315d431848);
+        
+    
+        var popup_6a11a46ab77e3d4e453378e4792884aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0afd40cded569d679c323df8e90c884a = $(`<div id="html_0afd40cded569d679c323df8e90c884a" style="width: 100.0%; height: 100.0%;">ProMedica_Toledo_Hospital</div>`)[0];
+                popup_6a11a46ab77e3d4e453378e4792884aa.setContent(html_0afd40cded569d679c323df8e90c884a);
+            
+        
+
+        marker_4ea2265cfa613c041c252030d2d81ac2.bindPopup(popup_6a11a46ab77e3d4e453378e4792884aa)
+        ;
+
+        
+    
+    
+            var marker_b53ec6a5e666473ff6fe2a1b1f0d1768 = L.marker(
+                [41.656276, -83.515686],
+                {
+}
+            ).addTo(map_5674f77fd9267c9234d333315d431848);
+        
+    
+        var popup_a393d1648f6e4d19f444155ad76d4b6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e8cc82b18957f5c35993bcf54fce7bd = $(`<div id="html_7e8cc82b18957f5c35993bcf54fce7bd" style="width: 100.0%; height: 100.0%;">National Museum of the Great Lakes</div>`)[0];
+                popup_a393d1648f6e4d19f444155ad76d4b6b.setContent(html_7e8cc82b18957f5c35993bcf54fce7bd);
+            
+        
+
+        marker_b53ec6a5e666473ff6fe2a1b1f0d1768.bindPopup(popup_a393d1648f6e4d19f444155ad76d4b6b)
+        ;
+
+        
+    
+    
+            var poly_line_fa2be9722209f2825ffd8b4cfbfa89b3 = L.polyline(
+                [[41.694408, -83.640538], [41.674386, -83.595582], [41.658139, -83.615205], [41.617334, -83.616837], [41.656276, -83.515686]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_5674f77fd9267c9234d333315d431848);
+        
+</script>
+</html>
